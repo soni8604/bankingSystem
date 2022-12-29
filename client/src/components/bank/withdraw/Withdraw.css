@@ -1,0 +1,70 @@
+
+#main-container{
+    position: fixed;
+    inset: 0;
+    backdrop-filter: blur(0px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:100vw;
+    height:100vh;
+    background-color: rgba(139, 131, 131, 0.3);
+}
+
+.short-container{
+    padding: 20px;
+    height:auto;
+    width:auto;
+    background-color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;  
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    
+}
+.short-container h1{
+    font-size: 40px;
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: aliceblue;
+
+}
+.buttons button{
+    width: 180px;
+    height: 45px;
+}
+.buttons .cancel{
+    background-color: red;
+}
+
+/* .short-container .inputContainer label{
+    color: black;
+    font-weight: 700;
+    font-size: 24px;
+
+} */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.inputContainer input{
+    height: 40px;
+    background-color: rgb(252, 252, 252);
+    border: none;
+    border-bottom: 2px solid black;
+    width: 400px;
+}
+.inputContainer input:focus{
+    outline: none;
+    text-align: center;
+}
+.inputContainer input::placeholder{
+    font-size: 20px;
+    text-align: center;
+}

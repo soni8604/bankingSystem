@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.buttonContainer{
+    height: 79vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logoutButton button{
+    width: 140px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(227, 78, 78);
+    border: none;
+}
+header{
+    background-color: rgb(26, 119, 153);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header h3{
+    color: aliceblue;
+    padding: 0px;
+    margin: 0px;
+}
+.buttonContainer div button{
+    background-color: rgb(101, 197, 101);
+    border: none;
+}
